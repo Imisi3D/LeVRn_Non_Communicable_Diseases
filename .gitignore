@@ -15,6 +15,9 @@
 
 /[Aa]ssets/Video/
 /[Aa]ssets/Videos/
+/[Aa]ssets/OVR/
+/[Aa]ssets/Oculus/
+/[Aa]ssets/oculus/
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
