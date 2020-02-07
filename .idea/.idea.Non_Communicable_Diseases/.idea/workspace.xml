@@ -11,24 +11,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/QuizManager.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/OptionsManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-26">
-              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="1695">
+              <caret line="119" column="9" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="9" />
               <folding>
-                <marker date="1579096387350" expanded="true" signature="6:146" ph="..." />
-                <marker date="1579096387350" expanded="true" signature="244:2180" ph="{...}" />
-                <marker date="1579096387350" expanded="true" signature="652:698" ph="{...}" />
-                <marker date="1579096387350" expanded="true" signature="769:845" ph="{...}" />
-                <marker date="1579096387350" expanded="true" signature="903:924" ph="{...}" />
-                <marker date="1579096387350" expanded="true" signature="949:970" ph="{...}" />
-                <marker date="1579096387350" expanded="true" signature="1005:1407" ph="{...}" />
-                <marker date="1579096387350" expanded="true" signature="1020:1401" ph="/* objectSelected++; ... */" />
-                <marker date="1579096387350" expanded="true" signature="1467:1508" ph="{...}" />
-                <marker date="1579096387350" expanded="true" signature="1563:1923" ph="{...}" />
-                <marker date="1579096387350" expanded="true" signature="1709:1766" ph="{...}" />
-                <marker date="1579096387350" expanded="true" signature="1808:1917" ph="{...}" />
-                <marker date="1579096387350" expanded="true" signature="1976:2178" ph="{...}" />
+                <marker date="1579703195991" expanded="true" signature="6:159" ph="..." />
+                <marker date="1579703195991" expanded="true" signature="262:3512" ph="{...}" />
+                <marker date="1579703195991" expanded="true" signature="789:835" ph="{...}" />
+                <marker date="1579703195991" expanded="true" signature="906:982" ph="{...}" />
+                <marker date="1579703195991" expanded="true" signature="1040:1061" ph="{...}" />
+                <marker date="1579703195991" expanded="true" signature="1086:1107" ph="{...}" />
+                <marker date="1579703195991" expanded="true" signature="1142:2297" ph="{...}" />
+                <marker date="1579703195991" expanded="true" signature="1157:2290" ph="/* objectSelected++; ... */" />
+                <marker date="1579703195991" expanded="true" signature="2357:2560" ph="{...}" />
+                <marker date="1579703195991" expanded="true" signature="2372:2554" ph="/* if (objectSelected % 2 == 1) ... */" />
+                <marker date="1579703195991" expanded="true" signature="2615:3164" ph="{...}" />
+                <marker date="1579703195991" expanded="true" signature="2916:3158" ph="/* if (objectSelected % 2 == 0) ... */" />
+                <marker date="1579703195991" expanded="true" signature="3217:3510" ph="{...}" />
+                <marker date="1579703195991" expanded="true" signature="3304:3495" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -40,12 +41,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/QuizManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/OptionsManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Prototype/QuizManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Prototype/OptionsManager.cs" />
       </list>
     </option>
   </component>
@@ -74,10 +76,10 @@
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -87,6 +89,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -128,11 +131,12 @@
       <updated>1579019777221</updated>
       <workItem from="1579019792187" duration="4578000" />
       <workItem from="1579088747639" duration="9797000" />
+      <workItem from="1579687899609" duration="9602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14375000" />
+    <option name="totallyTimeSpent" value="23977000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -146,7 +150,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25253063" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25519446" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -164,7 +168,7 @@
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Unit Tests" order="13" />
       <window_info anchor="bottom" id="Terminal" order="14" />
-      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" visible="true" weight="0.032017075" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -191,22 +195,30 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/QuizManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="300">
+          <caret line="20" column="83" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/OptionsManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1695">
+          <caret line="119" column="9" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="9" />
           <folding>
-            <marker date="1579096387350" expanded="true" signature="6:146" ph="..." />
-            <marker date="1579096387350" expanded="true" signature="244:2180" ph="{...}" />
-            <marker date="1579096387350" expanded="true" signature="652:698" ph="{...}" />
-            <marker date="1579096387350" expanded="true" signature="769:845" ph="{...}" />
-            <marker date="1579096387350" expanded="true" signature="903:924" ph="{...}" />
-            <marker date="1579096387350" expanded="true" signature="949:970" ph="{...}" />
-            <marker date="1579096387350" expanded="true" signature="1005:1407" ph="{...}" />
-            <marker date="1579096387350" expanded="true" signature="1020:1401" ph="/* objectSelected++; ... */" />
-            <marker date="1579096387350" expanded="true" signature="1467:1508" ph="{...}" />
-            <marker date="1579096387350" expanded="true" signature="1563:1923" ph="{...}" />
-            <marker date="1579096387350" expanded="true" signature="1709:1766" ph="{...}" />
-            <marker date="1579096387350" expanded="true" signature="1808:1917" ph="{...}" />
-            <marker date="1579096387350" expanded="true" signature="1976:2178" ph="{...}" />
+            <marker date="1579703195991" expanded="true" signature="6:159" ph="..." />
+            <marker date="1579703195991" expanded="true" signature="262:3512" ph="{...}" />
+            <marker date="1579703195991" expanded="true" signature="789:835" ph="{...}" />
+            <marker date="1579703195991" expanded="true" signature="906:982" ph="{...}" />
+            <marker date="1579703195991" expanded="true" signature="1040:1061" ph="{...}" />
+            <marker date="1579703195991" expanded="true" signature="1086:1107" ph="{...}" />
+            <marker date="1579703195991" expanded="true" signature="1142:2297" ph="{...}" />
+            <marker date="1579703195991" expanded="true" signature="1157:2290" ph="/* objectSelected++; ... */" />
+            <marker date="1579703195991" expanded="true" signature="2357:2560" ph="{...}" />
+            <marker date="1579703195991" expanded="true" signature="2372:2554" ph="/* if (objectSelected % 2 == 1) ... */" />
+            <marker date="1579703195991" expanded="true" signature="2615:3164" ph="{...}" />
+            <marker date="1579703195991" expanded="true" signature="2916:3158" ph="/* if (objectSelected % 2 == 0) ... */" />
+            <marker date="1579703195991" expanded="true" signature="3217:3510" ph="{...}" />
+            <marker date="1579703195991" expanded="true" signature="3304:3495" ph="{...}" />
           </folding>
         </state>
       </provider>
