@@ -37,7 +37,7 @@ public class SceneLoaderTimer : MonoBehaviour
     private void VideoEndTime(VideoPlayer vplayer)
     {
         //SceneManager.LoadScene(theNextScene);
-        SceneManager.(theNextScene, LoadSceneMode.Single);
+        SceneManager.LoadSceneAsync(theNextScene, LoadSceneMode.Single);
         //LoadSceneAsync
     }
 
