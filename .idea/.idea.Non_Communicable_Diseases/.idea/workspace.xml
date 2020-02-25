@@ -13,7 +13,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/OptionsManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1560">
+            <state relative-caret-position="1485">
               <caret line="119" column="9" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="9" />
               <folding>
                 <marker date="1579703195991" expanded="true" signature="6:159" ph="..." />
@@ -35,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneLoaderTimer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
+            <state relative-caret-position="375">
               <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
               <folding>
                 <marker date="1581956994816" expanded="true" signature="6:138" ph="..." />
@@ -57,6 +57,25 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SignHolder.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <marker date="1578330720690" expanded="false" signature="6:103" ph="..." />
+                <marker date="1578330720690" expanded="true" signature="144:1161" ph="{...}" />
+                <marker date="1578330720690" expanded="true" signature="392:445" ph="{...}" />
+                <marker date="1578330720690" expanded="true" signature="503:927" ph="{...}" />
+                <marker date="1578330720690" expanded="true" signature="593:649" ph="{...}" />
+                <marker date="1578330720690" expanded="true" signature="697:752" ph="{...}" />
+                <marker date="1578330720690" expanded="true" signature="796:920" ph="{...}" />
+                <marker date="1578330720690" expanded="true" signature="1002:1159" ph="/* IEnumerator DisableSign() ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -64,6 +83,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/OptionsManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SignHolder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneLoaderTimer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -95,14 +115,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
-        <option name="show-project-names" value="true" />
-      </pane>
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="AssemblyExplorer" />
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
       <pane id="FileSystemExplorer" />
     </panes>
   </component>
@@ -159,11 +179,12 @@
       <workItem from="1581933454685" duration="688000" />
       <workItem from="1581951510565" duration="628000" />
       <workItem from="1581955665903" duration="1224000" />
+      <workItem from="1582643420480" duration="1877000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26517000" />
+    <option name="totallyTimeSpent" value="28394000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -177,7 +198,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14864145" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15023975" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -223,7 +244,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/QuizManager.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Prototype/OptionsManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
+        <state relative-caret-position="1485">
           <caret line="119" column="9" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="9" />
           <folding>
             <marker date="1579703195991" expanded="true" signature="6:159" ph="..." />
@@ -246,7 +267,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneLoaderTimer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
+        <state relative-caret-position="375">
           <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
           <folding>
             <marker date="1581956994816" expanded="true" signature="6:138" ph="..." />
@@ -260,6 +281,23 @@
             <marker date="1581956994816" expanded="true" signature="1160:1365" ph="{...}" />
             <marker date="1581956994816" expanded="true" signature="1227:1273" ph="{...}" />
             <marker date="1581956994816" expanded="true" signature="1314:1359" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SignHolder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <marker date="1578330720690" expanded="false" signature="6:103" ph="..." />
+            <marker date="1578330720690" expanded="true" signature="144:1161" ph="{...}" />
+            <marker date="1578330720690" expanded="true" signature="392:445" ph="{...}" />
+            <marker date="1578330720690" expanded="true" signature="503:927" ph="{...}" />
+            <marker date="1578330720690" expanded="true" signature="593:649" ph="{...}" />
+            <marker date="1578330720690" expanded="true" signature="697:752" ph="{...}" />
+            <marker date="1578330720690" expanded="true" signature="796:920" ph="{...}" />
+            <marker date="1578330720690" expanded="true" signature="1002:1159" ph="/* IEnumerator DisableSign() ... */" />
           </folding>
         </state>
       </provider>

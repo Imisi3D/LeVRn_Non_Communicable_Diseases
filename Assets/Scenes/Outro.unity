@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 050a487a2e28c0f43bbc47c5af4196a5, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 697e1c26aab25ad49b18d613cd352cab, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -679,7 +679,7 @@ GameObject:
   - component: {fileID: 930726852}
   - component: {fileID: 930726851}
   m_Layer: 0
-  m_Name: Intro Video
+  m_Name: Outro Video
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -693,11 +693,11 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 930726850}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 6e090d98b963bc44fa262530c325e167, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: f59020f72118b9c4793ed06f3f62e829, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: 5f922d16f19559b429efa9700ec4318f, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: f512d7196c81c8544b202eefe6643dc6, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
@@ -1955,14 +1955,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946594697127084623, guid: ee6142cedf808ca4d96edd07221a5426,
         type: 3}
+      propertyPath: theNextScene
+      value: SimulationRoom
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946594697127084623, guid: ee6142cedf808ca4d96edd07221a5426,
+        type: 3}
       propertyPath: vidPlayer
       value: 
       objectReference: {fileID: 930726851}
-    - target: {fileID: 8946594697127084623, guid: ee6142cedf808ca4d96edd07221a5426,
-        type: 3}
-      propertyPath: theNextScene
-      value: Anaemia
-      objectReference: {fileID: 0}
     - target: {fileID: 6773262790329353005, guid: ee6142cedf808ca4d96edd07221a5426,
         type: 3}
       propertyPath: m_Name
@@ -2433,7 +2433,7 @@ PrefabInstance:
         type: 3}
       propertyPath: videoP
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 930726851}
     - target: {fileID: 3565743158265149805, guid: 4aebaa1dcc274fc4c9daca363d1d56c3,
         type: 3}
       propertyPath: signDisableTime
