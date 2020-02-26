@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SimulationRoom.unity
     guid: c6dbedc9961bd5d499695853bd69bad5
+  - enabled: 1
+    path: Assets/Scenes/Quizzes/Intro Quiz.unity
+    guid: 42bc24042077ab44ab79ef89993ce16e
   - enabled: 1
     path: Assets/Scenes/Intro.unity
     guid: 4a783d0605253c34e87b2d74aede54f3
@@ -35,16 +38,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Outro.unity
     guid: daa87584a5c4c494594e9154eafbe568
-  - enabled: 0
-    path: Assets/Scenes/PrototypeScenes/CancerPrototypeMain.unity
-    guid: b6b5e5b7ef1a4b244b3a78555f29a432
-  - enabled: 0
-    path: Assets/Scenes/PrototypeScenes/CancerPrototypeOther.unity
-    guid: 262535d915fb1604dbffdea285c8612c
-  - enabled: 0
-    path: Assets/OVR/OculusGo/Scene/Example.unity
-    guid: 85f7483880a81e240b0d93873045552f
-  - enabled: 0
-    path: Assets/OVR/OculusGo/Scene/NewExample.unity
-    guid: ce1a0bbcf635cd94aa6448da3dd59329
+  - enabled: 1
+    path: Assets/Scenes/Simulation Room.unity
+    guid: 069ce282b1edf2442b5b91cf98e71124
   m_configObjects: {}

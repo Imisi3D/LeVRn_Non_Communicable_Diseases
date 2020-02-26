@@ -736,6 +736,7 @@
             <e p="OptionsManager.cs" t="Include" />
             <e p="TextController.cs" t="Include" />
           </e>
+          <e p="SceneController.cs" t="Include" />
           <e p="SceneLoader.cs" t="Include" />
           <e p="SceneLoaderTimer.cs" t="Include" />
           <e p="ScrollControl.cs" t="Include" />
