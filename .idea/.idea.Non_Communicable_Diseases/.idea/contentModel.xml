@@ -725,25 +725,18 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="ControllerScript.cs" t="Include" />
-          <e p="FlashingBorder.cs" t="Include" />
-          <e p="FlashingBorderMesh.cs" t="Include" />
-          <e p="LightManager.cs" t="Include" />
-          <e p="Player.cs" t="Include" />
-          <e p="ProgressBarController.cs" t="Include" />
+          <e p="DisableOtherOptions.cs" t="Include" />
+          <e p="Option.cs" t="Include" />
           <e p="Prototype" t="Include">
             <e p="EndVideoTextController.cs" t="Include" />
             <e p="OptionsManager.cs" t="Include" />
             <e p="TextController.cs" t="Include" />
           </e>
+          <e p="QuizManager.cs" t="Include" />
+          <e p="ResultManager.cs" t="Include" />
           <e p="SceneController.cs" t="Include" />
           <e p="SceneLoader.cs" t="Include" />
           <e p="SceneLoaderTimer.cs" t="Include" />
-          <e p="ScrollControl.cs" t="Include" />
-          <e p="SignHolder.cs" t="Include" />
-          <e p="ToggleSign.cs" t="Include" />
-          <e p="VideoController.cs" t="Include" />
-          <e p="VideoProgressBarController.cs" t="Include" />
         </e>
         <e p="Scripts UI Oculus" t="Include">
           <e p="ButtonTimer.cs" t="Include" />
@@ -817,11 +810,6 @@
           </e>
           <e p="Sprites" t="Include">
             <e p="EmojiOne Attribution.txt" t="Include" />
-          </e>
-        </e>
-        <e p="VideoProgressBar" t="Include">
-          <e p="VideoPlayerControl" t="Include">
-            <e p="VideoProgressBar.cs" t="Include" />
           </e>
         </e>
       </e>

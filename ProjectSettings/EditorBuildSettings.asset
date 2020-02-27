@@ -6,39 +6,42 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/SimulationRoom.unity
-    guid: c6dbedc9961bd5d499695853bd69bad5
-  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/Scenes/Quizzes/Intro Quiz.unity
     guid: 42bc24042077ab44ab79ef89993ce16e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Intro.unity
     guid: 4a783d0605253c34e87b2d74aede54f3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Anaemia.unity
     guid: cba29197a869a1a49945ded68493e58b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Asthma.unity
     guid: 16c43b66512df78458de934b6a2d2cd9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Cancer.unity
     guid: a9ed70899fa3b8a4792a9a0a6b744c0a
   - enabled: 1
     path: Assets/Scenes/Dental Caries.unity
     guid: 0bdb46bc8498bc947ad0b436dc47a39a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Diabetes.unity
     guid: 2a9a5c523dcb2ae4cadd7823ce47f3fd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Hypertension.unity
     guid: 018efb43755b32048a966e3d05b93523
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Rickets.unity
     guid: d167724a68da3624a8f681046ace3d81
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Outro.unity
     guid: daa87584a5c4c494594e9154eafbe568
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Simulation Room.unity
     guid: 069ce282b1edf2442b5b91cf98e71124
+  - enabled: 1
+    path: Assets/Scenes/Quizzes/Dental Caries Quiz.unity
+    guid: 463a72cab01e0e74688f70bac879e882
   m_configObjects: {}

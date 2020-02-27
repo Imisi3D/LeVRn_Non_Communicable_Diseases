@@ -49,40 +49,7 @@ public class OptionsManager : MonoBehaviour , ISelectHandler, IPointerClickHandl
         
     }
 
-    public void SelectedOptions()
-    {
-        /*objectSelected++;
-        gameObject.GetComponent<Image>().color = Color.green;
-        selected = true;
-        print("Objects selected = " + objectSelected);
-        if (objectSelected % 2 == 1)
-        {
-            gameObject.GetComponent<Image>().color = Color.green;
-            optionsSelected++;
-            print("The new options selection is = " + optionsSelected);
-            selected = true;
-            counterText.text = "You have selected " + optionsSelected + " options out of 7".ToString();
-        }
-        else if (objectSelected % 2 == 0)
-        {
-            gameObject.GetComponent<Image>().color = initialColour;
-            optionsSelected--;
-            print("Updated options = " + optionsSelected);
-            counterText.text = "You have selected " + optionsSelected + " options out of 7".ToString();
-            selected = false;
-        }
-
-        if (optionsSelected > 7)
-        {
-            selected = false;
-            gameObject.GetComponent<Image>().color = initialColour;
-            counterText.gameObject.SetActive(false);
-            warningtext.gameObject.SetActive(true);
-        }*/
-
-    }
-
-    public void OnPointerClick(PointerEventData eventData)
+  public void OnPointerClick(PointerEventData eventData)
     {
         /*if (objectSelected % 2 == 1)
         {
