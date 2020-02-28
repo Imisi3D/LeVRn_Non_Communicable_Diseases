@@ -8,20 +8,14 @@ public class ResultManager : MonoBehaviour
    [SerializeField]
     private GameObject[] questions;
 
-    [SerializeField]
-    private Button[] otherOptions;
-
-    [SerializeField]
+   [SerializeField]
     private GameObject youAreCorrect;
 
     [SerializeField]
     private GameObject correctAnswer;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+
+    private int currentOption;
+
 
     public void CorrectAnswer()
     {
@@ -37,11 +31,12 @@ public class ResultManager : MonoBehaviour
     public void OnNextQuestionClicked()
     {
         correctAnswer.SetActive(false);
+        currentOption++;
         for (int i = 0; i < questions.Length; i++)
         {
-            questions[i + 1].SetActive(true);
+            questions[i].SetActive(false);
+            questions[currentOption].SetActive(true);
         }
-        
     }
 
     public void WrongAnswer(Button thisButton)
