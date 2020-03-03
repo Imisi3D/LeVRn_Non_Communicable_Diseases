@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class Option : MonoBehaviour
 {
+    
     public int optionNumber;
 
     [NonSerialized] 

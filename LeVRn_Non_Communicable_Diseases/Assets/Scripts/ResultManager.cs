@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ResultManager : MonoBehaviour
 {
-   [SerializeField]
+    [SerializeField]
     private GameObject[] questions;
 
    [SerializeField]
