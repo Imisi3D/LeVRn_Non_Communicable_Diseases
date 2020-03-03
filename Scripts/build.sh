@@ -6,8 +6,9 @@
 # This will be the name of the final executables as well.
 
 ## Run the editor unit tests
+UNITY_APPLICATION=$(find /Applications/Unity -name Unity.app | head -1)
 echo "Running editor unit tests for ${UNITY_PROJECT_NAME}"
-/Applications/Unity/Unity.app/Contents/MacOS/Unity \
+"${UNITY_APPLICATION}/Contents/MacOS/Unity" \
 	-batchmode \
 	-nographics \
 	-silent-crashes \
