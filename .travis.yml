@@ -4,10 +4,15 @@ language: generic
 # use a Mac OSX image
 os: osx
 
-# only run builds on pushes to the master branch
-branches:
-  only:
-  - master
+# cache unity download#
+cache:
+  directories:
+  - $UNITY_DOWNLOAD_CACHE
+
+#  In order for Travis to save anything to the cache, you need to make
+# sure it’s writeable
+before_install:
+  - chmod a+x ./Scripts/*.sh
 
 # send email notifications when the build changes from succeeding to broken
 notifications:
@@ -28,3 +33,4 @@ script:
 env:
   global:
   - UNITY_PROJECT_NAME="LeVRn_Non_Communicable_Diseases"
+  - UNITY_DOWNLOAD_CACHE="${TRAVIS_BUILD_DIR}/unity_download_cache"
