@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
+
+[assembly:System.Runtime.CompilerServices.InternalsVisibleTo("Assembly-CSharp-Editor")]
+
 public class ResultManager : MonoBehaviour
 {
     [SerializeField]
@@ -14,7 +18,7 @@ public class ResultManager : MonoBehaviour
     [SerializeField]
     private GameObject correctAnswer;
 
-    private int currentOption;
+    public int currentOption;
 
 
     public void CorrectAnswer()

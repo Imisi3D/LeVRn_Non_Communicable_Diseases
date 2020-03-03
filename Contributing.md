@@ -3,7 +3,7 @@ Yay! Thank you for considering contributing to our Algebra module. This project 
 
 Following the guidelines for contributing to this project indicates that you value the efforts the developers designing, building and managing this open-source project put into this document. In return, they should respect and value your time by expressly addressing your issues and helping you finalise your pull request.
 
-LeVRnAlgebra is an open-source project, and we love to receive contributions from the global community of VR developers and enthusiasts. You can contribute by;
+LeVRn_Non_Communicable_Diseases is an open-source project, and we love to receive contributions from the global community of VR developers and enthusiasts. You can contribute by;
 - Improving the documentation
 - Writing tutorials or blog post
 - Reporting or fixing bugs
