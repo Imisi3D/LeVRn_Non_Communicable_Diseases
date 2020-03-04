@@ -1,6 +1,8 @@
 # LeVRn_Non_Communicable_Diseases
 An educational VR project developed to teach Junior Secondary School students non-communicable diseases.
 
+[![Coverage Status](https://coveralls.io/repos/github/badmusishaq/LeVRn_Non_Communicable_Diseases/badge.svg?branch=master)](https://coveralls.io/github/badmusishaq/LeVRn_Non_Communicable_Diseases?branch=master)
+
 ## Prerequisites
 - Unity 2019.1.1f1
 
