@@ -4153,7 +4153,7 @@ PrefabInstance:
     - target: {fileID: 8946594697127084623, guid: ee6142cedf808ca4d96edd07221a5426,
         type: 3}
       propertyPath: theNextScene
-      value: Dental Caries
+      value: Cancer Quiz
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee6142cedf808ca4d96edd07221a5426, type: 3}

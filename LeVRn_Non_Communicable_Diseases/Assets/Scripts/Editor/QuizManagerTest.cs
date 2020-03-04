@@ -4,10 +4,10 @@ using UnityEditor.SceneManagement;
 using NUnit.Framework;
 
 
-public class QuizManagerTest : MonoBehaviour
+public class QuizManagerTest
 {
     [Test]
-    public void ScoreUpdatesWithToken() {
+    public void QuizAndResultChecker() {
         var quiz = new GameObject();
         quiz.AddComponentAndInit<QuizManager> ();
         quiz.tag = "Player";

@@ -3480,6 +3480,26 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8237531448953873861, guid: 57884607afa87954cb5ae30a540cb1f0,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 698735299}
+    - target: {fileID: 8237531448953873861, guid: 57884607afa87954cb5ae30a540cb1f0,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GoToTheNextVideo
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237531448953873861, guid: 57884607afa87954cb5ae30a540cb1f0,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237531448953873861, guid: 57884607afa87954cb5ae30a540cb1f0,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Asthma
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57884607afa87954cb5ae30a540cb1f0, type: 3}
 --- !u!224 &848195388 stripped

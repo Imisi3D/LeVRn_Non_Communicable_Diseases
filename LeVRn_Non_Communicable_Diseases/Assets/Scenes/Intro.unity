@@ -1961,7 +1961,7 @@ PrefabInstance:
     - target: {fileID: 8946594697127084623, guid: ee6142cedf808ca4d96edd07221a5426,
         type: 3}
       propertyPath: theNextScene
-      value: Anaemia
+      value: Intro Quiz
       objectReference: {fileID: 0}
     - target: {fileID: 6773262790329353005, guid: ee6142cedf808ca4d96edd07221a5426,
         type: 3}

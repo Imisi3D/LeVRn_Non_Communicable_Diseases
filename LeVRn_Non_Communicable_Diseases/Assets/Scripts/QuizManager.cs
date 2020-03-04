@@ -101,6 +101,14 @@ public class QuizManager : MonoBehaviour
             for (int j = 0; j < correctOptions.Count; j++)
             {
                 options[correctOptions[j]].optionImage.color = new Color(0.1241f, 0.9607f, 0.7098f);
+                /*if (options[j].optionImage.color != new Color(0.1241f, 0.9607f, 0.7098f))
+                {
+                    options[j].gameObject.SetActive(false);
+                }*/
+                if (!correctOptions.Contains(options[j].optionNumber))
+                {
+                    options[j].gameObject.SetActive(false);
+                }
             }
         }
         else

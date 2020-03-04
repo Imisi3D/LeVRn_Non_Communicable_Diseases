@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
@@ -61,8 +62,10 @@ public class ResultManager : MonoBehaviour
         {
             questions[i].SetActive(false);
         }
-
     }
-    
-    
+
+    public void GoToTheNextVideo(string sceneName)
+    {
+        SceneManager.LoadSceneAsync(sceneName);
+    }
 }

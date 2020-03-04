@@ -646,7 +646,7 @@ PrefabInstance:
     - target: {fileID: 8946594697127084623, guid: ee6142cedf808ca4d96edd07221a5426,
         type: 3}
       propertyPath: theNextScene
-      value: Simulation Room
+      value: Acknowledgment
       objectReference: {fileID: 0}
     - target: {fileID: 8946594697127084623, guid: ee6142cedf808ca4d96edd07221a5426,
         type: 3}

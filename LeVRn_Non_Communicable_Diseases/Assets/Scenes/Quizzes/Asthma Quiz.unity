@@ -10548,6 +10548,26 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8237531448953873861, guid: 57884607afa87954cb5ae30a540cb1f0,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1308712275}
+    - target: {fileID: 8237531448953873861, guid: 57884607afa87954cb5ae30a540cb1f0,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GoToTheNextVideo
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237531448953873861, guid: 57884607afa87954cb5ae30a540cb1f0,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237531448953873861, guid: 57884607afa87954cb5ae30a540cb1f0,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Cancer
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57884607afa87954cb5ae30a540cb1f0, type: 3}
 --- !u!224 &1421351736 stripped
@@ -12771,11 +12791,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 7484961526061977446, guid: 979b681ef5eaae04b8b194a106306993,
-        type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 34692737}
     - target: {fileID: 7484961526061977444, guid: 979b681ef5eaae04b8b194a106306993,
         type: 3}
       propertyPath: m_Enabled
@@ -12796,6 +12811,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OnNextQuestionClicked
       objectReference: {fileID: 0}
+    - target: {fileID: 7484961526061977446, guid: 979b681ef5eaae04b8b194a106306993,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 34692737}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 979b681ef5eaae04b8b194a106306993, type: 3}
 --- !u!1 &1710004075 stripped

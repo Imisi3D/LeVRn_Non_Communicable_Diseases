@@ -4076,14 +4076,14 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 201879546}
-        m_MethodName: OnNextQuestionClicked
-        m_Mode: 1
+        m_MethodName: GoToTheNextVideo
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Diabetes
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -8481,11 +8481,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 7484961526061977446, guid: 979b681ef5eaae04b8b194a106306993,
+    - target: {fileID: 7484961526061977444, guid: 979b681ef5eaae04b8b194a106306993,
         type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 34692737}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7484961526061977443, guid: 979b681ef5eaae04b8b194a106306993,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7484961524618693216, guid: 979b681ef5eaae04b8b194a106306993,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -8496,5 +8501,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 201879546}
+    - target: {fileID: 7484961526061977446, guid: 979b681ef5eaae04b8b194a106306993,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 34692737}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 979b681ef5eaae04b8b194a106306993, type: 3}
