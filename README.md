@@ -1,4 +1,4 @@
-# LeVRn_Non_Communicable_Diseases
+# LeVRn_Non_Communicable_Diseases         https://travis-ci.org/Imisi3D/LeVRn_Non_Communicable_Diseases.svg?branch=master
 An educational VR project developed to teach Junior Secondary School students non-communicable diseases.
 
 ## Prerequisites
