@@ -6,7 +6,7 @@ using UnityEngine.UI;
 using TMPro;
 
 
-[assembly:System.Runtime.CompilerServices.InternalsVisibleTo("Assembly-CSharp-Editor")]
+//[assembly:System.Runtime.CompilerServices.InternalsVisibleTo("Assembly-CSharp-Editor")]
 
 public class QuizManager : MonoBehaviour
 {
@@ -23,6 +23,14 @@ public class QuizManager : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI scoreText;
 
+    public static int score;
+    
+    //[SerializeField]
+    //private TextMeshProUGUI finalScoreText;
+    //private static int finalScore = 0;
+    //private static int generatedScore = 0;
+    
+
     [SerializeField] private int numberOfOptions;
 
     [SerializeField] private GameObject nextVideo;
@@ -30,6 +38,9 @@ public class QuizManager : MonoBehaviour
     [SerializeField] private List<int> correctOptions = new List<int>();
 
     private List<int> chosenOptions = new List<int>();
+
+    //[SerializeField]
+    public TextMeshProUGUI finalScoreText;
 
     private List<Option> options;
 
@@ -132,6 +143,16 @@ public class QuizManager : MonoBehaviour
                 }
             }
         }
+
+        score += numberOfCorrectAnswers;
+        //FinalResultCalculator.generatedScore += numberOfCorrectAnswers;
+        //FinalResultCalculator.finalScore = Mathf.CeilToInt(((float)FinalResultCalculator.generatedScore / 34) * 100);
+        //finalScoreText.text = FinalResultCalculator.finalScore+"%".ToString();
+
+        //Debug.Log("Current score = " + FinalResultCalculator.finalScore + "%");
+        Debug.Log("score = " + score);
+
+
     }
 
     IEnumerator DisplayCorrectOptions()

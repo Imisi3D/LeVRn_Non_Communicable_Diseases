@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "359180557256",
+    "firebase_url": "https://levrn-analytics.firebaseio.com",
+    "project_id": "levrn-analytics",
+    "storage_bucket": "levrn-analytics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359180557256:android:bd42f00ad5dcf864487efd",
+        "android_client_info": {
+          "package_name": "com.Imisi3D.Non_Communicable_Diseases"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359180557256-pejm6drqebp49hfbroqiso9g3i5vc6nd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuYKvK4iRQdEfqycmCyHpbmorfWIjoG6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359180557256-pejm6drqebp49hfbroqiso9g3i5vc6nd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

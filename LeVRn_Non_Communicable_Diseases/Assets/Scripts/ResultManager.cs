@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 
 
 
-[assembly:System.Runtime.CompilerServices.InternalsVisibleTo("Assembly-CSharp-Editor")]
+//[assembly:System.Runtime.CompilerServices.InternalsVisibleTo("Assembly-CSharp-Editor")]
 
 public class ResultManager : MonoBehaviour
 {
@@ -18,13 +19,25 @@ public class ResultManager : MonoBehaviour
 
     [SerializeField]
     private GameObject correctAnswer;
+    
 
-    public int currentOption;
+    private int currentOption;
 
+    public static int newScore;
 
+    [SerializeField]
+    private TextMeshProUGUI finalScoreText;
+    
     public void CorrectAnswer()
     {
         youAreCorrect.SetActive(true);
+        
+        newScore++;
+        //FinalResultCalculator.generatedScore++;
+        //FinalResultCalculator.finalScore = Mathf.CeilToInt(((float)FinalResultCalculator.generatedScore / 34) * 100);
+        //finalScoreText.text = FinalResultCalculator.finalScore+"%".ToString();
+        Debug.Log("Newscore = " + newScore);
+        
         for (int i = 0; i < questions.Length; i++)
         {
             questions[i].SetActive(false);
