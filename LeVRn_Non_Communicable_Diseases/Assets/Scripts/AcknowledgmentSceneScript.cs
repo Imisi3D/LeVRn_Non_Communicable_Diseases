@@ -18,12 +18,12 @@ public class AcknowledgmentSceneScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(LoadSceneAfterDelay(5));
+        StartCoroutine(DisplayAcknowledgmentObject(5));
 
         Invoke("DelayedRestart", 8);
     }
 
-    IEnumerator LoadSceneAfterDelay(float waitTime)
+    IEnumerator DisplayAcknowledgmentObject(float waitTime)
     {
         yield return new WaitForSeconds(waitTime);
         

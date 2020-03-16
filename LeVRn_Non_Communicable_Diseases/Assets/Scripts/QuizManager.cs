@@ -40,7 +40,7 @@ public class QuizManager : MonoBehaviour
     private List<int> chosenOptions = new List<int>();
 
     //[SerializeField]
-    public TextMeshProUGUI finalScoreText;
+    //public TextMeshProUGUI finalScoreText;
 
     private List<Option> options;
 
@@ -48,18 +48,19 @@ public class QuizManager : MonoBehaviour
     void Start()
     {
         options = GetComponentsInChildren<Option>().ToList();
+        initialColour = Color.white;
     }
 
     public void SelectedOptions(Option option)
     {
-        option.optionImage.color = new Color(0.6901961f, 0.945098f, 1f);
+        option.optionImage.color = new Color(0.3163937f, 0.6443403f, 0.8490566f, 1f);
 
         if (option.selected)
         {
             option.optionImage.color = initialColour;
             int index = chosenOptions.FindIndex((i => i == option.optionNumber));
             chosenOptions.RemoveAt(index);
-            counterText.text = $"You have selected {chosenOptions.Count} out of {numberOfOptions} option.";
+            counterText.text = $"You have selected {chosenOptions.Count} out of {numberOfOptions} options.";
             option.selected = false;
             warningtext.gameObject.SetActive(false);
             counterText.gameObject.SetActive(true);
@@ -73,10 +74,10 @@ public class QuizManager : MonoBehaviour
 
         if (chosenOptions.Count < numberOfOptions)
         {
-            option.optionImage.color = new Color(0.6901961f, 0.945098f, 1f);
+            option.optionImage.color = new Color(0.3163937f, 0.6443403f, 0.8490566f, 1f);
             chosenOptions.Add(option.optionNumber);
             option.selected = true;
-            counterText.text = $"You have selected {chosenOptions.Count} out of {numberOfOptions} option.";
+            counterText.text = $"You have selected {chosenOptions.Count} out of {numberOfOptions} options.";
         }
         else
         {
@@ -111,7 +112,7 @@ public class QuizManager : MonoBehaviour
             
             for (int j = 0; j < correctOptions.Count; j++)
             {
-                options[correctOptions[j]].optionImage.color = new Color(0.1241f, 0.9607f, 0.7098f);
+                options[correctOptions[j]].optionImage.color = new Color(0.1254902f, 0.9607843f, 0.7098039f, 1f);
                 /*if (options[j].optionImage.color != new Color(0.1241f, 0.9607f, 0.7098f))
                 {
                     options[j].gameObject.SetActive(false);
@@ -124,7 +125,7 @@ public class QuizManager : MonoBehaviour
         }
         else
         {
-            scoreText.text = $"You got {numberOfCorrectAnswers} out of {numberOfOptions} option.";
+            scoreText.text = $"You got {numberOfCorrectAnswers} out of {numberOfOptions} options.";
             immediateResult.SetActive(true);
             submitButton.SetActive(false);
             warningtext.gameObject.SetActive(false);
@@ -138,6 +139,7 @@ public class QuizManager : MonoBehaviour
                 {
                     wrongOptions.Add(options[i]);
                     options[i].optionImage.color = new Color(1f, 0.2941f, 0.3372f);
+                    //options[correctOptions[i]].optionImage.color = new Color(0.1254902f, 0.9607843f, 0.7098039f, 1f);
 
                     StartCoroutine(DisplayCorrectOptions());
                 }
@@ -161,7 +163,7 @@ public class QuizManager : MonoBehaviour
 
         for (int j = 0; j < correctOptions.Count; j++)
         {
-            options[correctOptions[j]].optionImage.color = new Color(0.1241f, 0.9607f, 0.7098f);
+            options[correctOptions[j]].optionImage.color = new Color(0.1254902f, 0.9607843f, 0.7098039f,1f);
         }
 
         for (int i = 0; i < options.Count; i++)

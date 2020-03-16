@@ -1,20 +1,19 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class FinalResultCalculator : MonoBehaviour
+
+public class DisabledScript : MonoBehaviour
 {
     private float finalScore;
 
     [SerializeField]
     private TextMeshProUGUI totalScoreText;
 
-    [SerializeField]
-    private Animator anim;
+    public Animator anim;
 
     [SerializeField]
     private string sceneToLoad;
@@ -22,32 +21,20 @@ public class FinalResultCalculator : MonoBehaviour
     [SerializeField]
     private GameObject acknowledgmentObject;
 
-
-    private void Start()
-    {
-        TotalScore();
-    }
-
-    //use this method if you are adding a buttonClick before the
-    //test result is displayed.
-    //public void TotalScore(Button overallAnswer)
-    public void TotalScore()
+    
+    
+    public void TotalScore(Button overallAnswer)
     {
         anim.gameObject.SetActive(true);
         anim.Play("Loading Answer");
         
-        //overallAnswer.interactable = false;
-        
-                
-        /*int scoreCalculation = ResultManager.newScore + QuizManager.score;
-        finalScore = Mathf.CeilToInt(((float) scoreCalculation / 34) * 100);
-        totalScoreText.text = $"{finalScore}%";*/
+        overallAnswer.interactable = false;
 
         StartCoroutine(DisplayAnswer()); 
         
-        StartCoroutine(DisplayAcknowledgementObject(5)); 
+        StartCoroutine(DisplayAcknowledgementObject(10)); 
         
-        Invoke("DelayedRestart", 9);
+        Invoke("DelayedRestart", 14);
     }
 
     IEnumerator DisplayAnswer()
@@ -70,6 +57,8 @@ public class FinalResultCalculator : MonoBehaviour
     {
         yield return new WaitForSeconds(waitTime);
         
+       
         acknowledgmentObject.SetActive(true);
+        Debug.Log($"acknowledgment displayed");
     }
 }

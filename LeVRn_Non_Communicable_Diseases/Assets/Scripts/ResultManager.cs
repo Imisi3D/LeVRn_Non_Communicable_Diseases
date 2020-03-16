@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -19,30 +20,21 @@ public class ResultManager : MonoBehaviour
 
     [SerializeField]
     private GameObject correctAnswer;
-    
 
     private int currentOption;
 
     public static int newScore;
 
-    [SerializeField]
-    private TextMeshProUGUI finalScoreText;
     
-    public void CorrectAnswer()
+    public void CorrectAnswer(Button correctOption)
     {
-        youAreCorrect.SetActive(true);
+        correctOption.GetComponent<Image>().color = new Color(0.1254902f, 0.9607843f, 0.7098039f, 1f);
+        
+        Invoke("DisplayCorrectOptionBadge", 2);
         
         newScore++;
-        //FinalResultCalculator.generatedScore++;
-        //FinalResultCalculator.finalScore = Mathf.CeilToInt(((float)FinalResultCalculator.generatedScore / 34) * 100);
-        //finalScoreText.text = FinalResultCalculator.finalScore+"%".ToString();
         Debug.Log("Newscore = " + newScore);
         
-        for (int i = 0; i < questions.Length; i++)
-        {
-            questions[i].SetActive(false);
-        }
-
         StartCoroutine(DisableBoard());
     }
 
@@ -59,14 +51,13 @@ public class ResultManager : MonoBehaviour
 
     public void WrongAnswer(Button thisButton)
     {
-        //correctAnswer.SetActive(true);
-        thisButton.GetComponent<Image>().color = new Color(1f, 0.2941f, 0.3372f);
+        thisButton.GetComponent<Image>().color = new Color(1f, 0.2941f, 0.3372f, 1f);
         StartCoroutine(DisableBoard());
     }
 
     IEnumerator DisableBoard()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(2);
         youAreCorrect.SetActive(false);
         
         correctAnswer.SetActive(true);
@@ -80,5 +71,15 @@ public class ResultManager : MonoBehaviour
     public void GoToTheNextVideo(string sceneName)
     {
         SceneManager.LoadSceneAsync(sceneName);
+    }
+
+    void DisplayCorrectOptionBadge()
+    {
+        youAreCorrect.SetActive(true);
+        
+        for (int i = 0; i < questions.Length; i++)
+        {
+            questions[i].SetActive(false);
+        }
     }
 }
