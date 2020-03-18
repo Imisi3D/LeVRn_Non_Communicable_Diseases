@@ -57,7 +57,7 @@ public class ResultManager : MonoBehaviour
 
     IEnumerator DisableBoard()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(4);
         youAreCorrect.SetActive(false);
         
         correctAnswer.SetActive(true);

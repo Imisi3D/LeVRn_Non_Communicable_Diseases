@@ -25,10 +25,11 @@ public class FinalResultCalculator : MonoBehaviour
 
     private void Start()
     {
+        finalScore = 0f;
         TotalScore();
     }
 
-    //use this method if you are adding a buttonClick before the
+    //use this commented method if you are adding a buttonClick before the
     //test result is displayed.
     //public void TotalScore(Button overallAnswer)
     public void TotalScore()
