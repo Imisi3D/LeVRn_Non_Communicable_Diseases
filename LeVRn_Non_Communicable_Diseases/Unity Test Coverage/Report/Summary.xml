@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CoverageReport scope="Summary">
+  <Summary>
+    <Generatedon>3/21/2020 - 1:35:39 PM</Generatedon>
+    <Parser>OpenCoverParser</Parser>
+    <Assemblies>2</Assemblies>
+    <Classes>2</Classes>
+    <Files>2</Files>
+    <Coveredlines>7</Coveredlines>
+    <Uncoveredlines>0</Uncoveredlines>
+    <Coverablelines>7</Coverablelines>
+    <Totallines>33</Totallines>
+    <Linecoverage>100</Linecoverage>
+    <Coveredbranches>0</Coveredbranches>
+    <Totalbranches>0</Totalbranches>
+  </Summary>
+  <Coverage>
+    <Assembly name="Tests" classes="1" coverage="100" coveredlines="4" coverablelines="4" totallines="19" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="Tests.FinalScoreTest" coverage="100" coveredlines="4" coverablelines="4" totallines="19" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+    <Assembly name="TestScripts" classes="1" coverage="100" coveredlines="3" coverablelines="3" totallines="14" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="FinalResultManager" coverage="100" coveredlines="3" coverablelines="3" totallines="14" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+  </Coverage>
+</CoverageReport>

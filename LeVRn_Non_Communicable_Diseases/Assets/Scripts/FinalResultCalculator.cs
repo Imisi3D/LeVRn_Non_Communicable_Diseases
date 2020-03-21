@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 
 public class FinalResultCalculator : MonoBehaviour
 {
-    private float finalScore;
+    public static float finalScore;
 
     [SerializeField]
     private TextMeshProUGUI totalScoreText;
@@ -70,7 +70,6 @@ public class FinalResultCalculator : MonoBehaviour
     IEnumerator DisplayAcknowledgementObject(float waitTime)
     {
         yield return new WaitForSeconds(waitTime);
-        
         acknowledgmentObject.SetActive(true);
     }
 }
