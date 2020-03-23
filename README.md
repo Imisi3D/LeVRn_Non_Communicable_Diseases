@@ -1,5 +1,5 @@
 # LeVRn_Non_Communicable_Diseases
-![Test Coverage](https://res.cloudinary.com/dxutdx19b/image/upload/v1584797301/badge_linecoverage_mf0yws.png)
+[![Build Status](https://travis-ci.org/Imisi3D/LeVRn_Non_Communicable_Diseases.svg?branch=master)](https://travis-ci.org/Imisi3D/LeVRn_Non_Communicable_Diseases)     ![Test Coverage](https://res.cloudinary.com/dxutdx19b/image/upload/v1584797301/badge_linecoverage_mf0yws.png)
 
 An educational VR project developed to teach Junior Secondary School students non-communicable diseases.
 
