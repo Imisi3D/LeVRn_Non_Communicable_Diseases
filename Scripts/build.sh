@@ -26,27 +26,27 @@ echo "Running editor unit tests for ${UNITY_PROJECT_NAME}"
 echo "Unit test done!"
 
 # Make build for windows executable
-echo "Attempting build for ${UNITY_PROJECT_NAME} for Windows"
-/Applications/Unity/Unity.app/Contents/MacOS/Unity \
-  -batchmode \
-  -nographics \
-  -silent-crashes \
-  -logFile $(pwd)/unity.log \
-  -projectPath "$(pwd)/${UNITY_PROJECT_NAME}" \
-  -buildWindowsPlayer "$(pwd)/Build/windows/${UNITY_PROJECT_NAME}.exe" \
-  -quit
+#echo "Attempting build for ${UNITY_PROJECT_NAME} for Windows"
+#/Applications/Unity/Unity.app/Contents/MacOS/Unity \
+#  -batchmode \
+#  -nographics \
+#  -silent-crashes \
+#  -logFile $(pwd)/unity.log \
+#  -projectPath "$(pwd)/${UNITY_PROJECT_NAME}" \
+#  -buildWindowsPlayer "$(pwd)/Build/windows/${UNITY_PROJECT_NAME}.exe" \
+#  -quit
 
-if [ $? = 0 ] ; then
-  echo "Building Windows exe completed successfully."
-  ERROR_CODE=0
-else
-  echo "Building Windows exe failed. Exited with $?."
-  ERROR_CODE=1
-fi
+#if [ $? = 0 ] ; then
+#  echo "Building Windows exe completed successfully."
+#  ERROR_CODE=0
+#else
+#  echo "Building Windows exe failed. Exited with $?."
+#  ERROR_CODE=1
+#fi
 
 
-echo "Finishing with code $ERROR_CODE"
-exit $ERROR_CODE
+#echo "Finishing with code $ERROR_CODE"
+#exit $ERROR_CODE
 
 
 #rc1=$?
