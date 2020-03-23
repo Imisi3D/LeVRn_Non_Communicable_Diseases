@@ -36,9 +36,23 @@ echo "Attempting build for ${UNITY_PROJECT_NAME} for Windows"
   -buildWindowsPlayer "$(pwd)/Build/windows/${UNITY_PROJECT_NAME}.exe" \
   -quit
 
-rc1=$?
-echo "Build logs (Windows)"
-cat $(pwd)/unity.log
+if [ $? = 0 ] ; then
+  echo "Building Windows exe completed successfully."
+  ERROR_CODE=0
+else
+  echo "Building Windows exe failed. Exited with $?."
+  ERROR_CODE=1
+fi
 
-exit $($rc1)
+
+echo "Finishing with code $ERROR_CODE"
+exit $ERROR_CODE
+
+
+#rc1=$?
+#echo "Build logs (Windows)"
+#cat $(pwd)/unity.log
+
+#exit $($rc1)
+
 
