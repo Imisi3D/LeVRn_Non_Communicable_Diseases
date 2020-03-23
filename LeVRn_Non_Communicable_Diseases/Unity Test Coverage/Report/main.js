@@ -224,16 +224,16 @@ var assemblies = [
   {
     "name": "Tests",
     "classes": [
-      { "name": "Tests.FinalScoreTest", "rp": "Tests_FinalScoreTest.htm", "cl": 4, "ucl": 0, "cal": 4, "tl": 19, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [100], "bch": [], "hc": [{ "et": "3/21/2020 - 1:35:38 PM", "cl": 4, "ucl": 0, "cal": 4, "tl": 19, "lcq": 100, "cb": 0, "tb": 0, "bcq": 0 }] },
+      { "name": "Tests.FinalScoreTest", "rp": "Tests_FinalScoreTest.htm", "cl": 4, "ucl": 0, "cal": 4, "tl": 19, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [100], "bch": [], "hc": [{ "et": "3/21/2020 - 1:35:38 PM", "cl": 4, "ucl": 0, "cal": 4, "tl": 19, "lcq": 100, "cb": 0, "tb": 0, "bcq": 0 }, { "et": "3/23/2020 - 11:52:43 AM", "cl": 4, "ucl": 0, "cal": 4, "tl": 19, "lcq": 100, "cb": 0, "tb": 0, "bcq": 0 }] },
     ]},
   {
     "name": "TestScripts",
     "classes": [
-      { "name": "FinalResultManager", "rp": "TestScripts_FinalResultManager.htm", "cl": 3, "ucl": 0, "cal": 3, "tl": 14, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [100], "bch": [], "hc": [{ "et": "3/21/2020 - 1:35:38 PM", "cl": 3, "ucl": 0, "cal": 3, "tl": 14, "lcq": 100, "cb": 0, "tb": 0, "bcq": 0 }] },
+      { "name": "FinalResultManager", "rp": "TestScripts_FinalResultManager.htm", "cl": 3, "ucl": 0, "cal": 3, "tl": 14, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [100], "bch": [], "hc": [{ "et": "3/21/2020 - 1:35:38 PM", "cl": 3, "ucl": 0, "cal": 3, "tl": 14, "lcq": 100, "cb": 0, "tb": 0, "bcq": 0 }, { "et": "3/23/2020 - 11:52:43 AM", "cl": 3, "ucl": 0, "cal": 3, "tl": 14, "lcq": 100, "cb": 0, "tb": 0, "bcq": 0 }] },
     ]},
 ];
 
-var historicCoverageExecutionTimes = [];
+var historicCoverageExecutionTimes = ["3/21/2020 - 1:35:38 PM"];
 
 var riskHotspotMetrics = [
 ];

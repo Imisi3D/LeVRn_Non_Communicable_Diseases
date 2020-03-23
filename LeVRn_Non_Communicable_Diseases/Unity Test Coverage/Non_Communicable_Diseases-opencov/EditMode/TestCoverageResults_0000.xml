@@ -20,10 +20,10 @@
               <Name>System.Void Tests.FinalScoreTest::SetFinalScoreTo50PercentWhenTotalScoreIs17()</Name>
               <FileRef uid="1" />
               <SequencePoints>
-                <SequencePoint vc="1" uspid="5" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="9" bec="0" bev="0" fileid="1" />
-                <SequencePoint vc="1" uspid="6" ordinal="0" offset="1" sl="14" sc="13" el="14" ec="13" bec="0" bev="0" fileid="1" />
-                <SequencePoint vc="1" uspid="7" ordinal="0" offset="9" sl="16" sc="13" el="16" ec="13" bec="0" bev="0" fileid="1" />
-                <SequencePoint vc="1" uspid="8" ordinal="0" offset="28" sl="17" sc="9" el="17" ec="9" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="1" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="9" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="2" ordinal="0" offset="1" sl="14" sc="13" el="14" ec="13" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="3" ordinal="0" offset="9" sl="16" sc="13" el="16" ec="13" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="4" ordinal="0" offset="28" sl="17" sc="9" el="17" ec="9" bec="0" bev="0" fileid="1" />
               </SequencePoints>
               <BranchPoints />
             </Method>
@@ -36,7 +36,7 @@
       <ModuleTime>0001-01-01T00:00:00</ModuleTime>
       <ModuleName>TestScripts</ModuleName>
       <Files>
-        <File uid="2" fullPath="C:\Users\badmu\Documents\Unity_Projects\Non_Communicable_Diseases\Assets\Scripts\TestScripts\FinalResultManager.cs" />
+        <File uid="2" fullPath="C:\Users\badmu\Documents\Unity_Projects\Non_Communicable_Diseases\Assets\Scripts\Editor\FinalResultManager.cs" />
       </Files>
       <Classes>
         <Class>
@@ -49,9 +49,9 @@
               <Name>static System.Int32 FinalResultManager::CalculateFinalScore(System.Int32)</Name>
               <FileRef uid="2" />
               <SequencePoints>
-                <SequencePoint vc="1" uspid="9" ordinal="0" offset="0" sl="9" sc="5" el="9" ec="5" bec="0" bev="0" fileid="2" />
-                <SequencePoint vc="1" uspid="10" ordinal="0" offset="1" sl="11" sc="9" el="11" ec="9" bec="0" bev="0" fileid="2" />
-                <SequencePoint vc="1" uspid="11" ordinal="0" offset="23" sl="13" sc="5" el="13" ec="5" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="5" ordinal="0" offset="0" sl="9" sc="5" el="9" ec="5" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="6" ordinal="0" offset="1" sl="11" sc="9" el="11" ec="9" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="7" ordinal="0" offset="23" sl="13" sc="5" el="13" ec="5" bec="0" bev="0" fileid="2" />
               </SequencePoints>
               <BranchPoints />
             </Method>
